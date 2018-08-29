@@ -10,7 +10,7 @@
   "author": "aleiux",
   "license": "MIT",
   "dependencies": {
-    "@types/react": "^16.0.36",
+    "@types/react": "^16.4.13",
     "@types/react-dom": "^16.0.3",
     "@types/react-redux": "^5.0.14",
     "@types/react-router": "^4.0.21",
@@ -23,19 +23,20 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.3.1",
     "redux": "^3.7.2",
-    "webpack": "^3.11.0"
+    "webpack": "^4.17.1"
   },
   "devDependencies": {
     "@types/color": "^3.0.0",
     "@types/radium": "^0.18.23",
-    "awesome-typescript-loader": "^3.4.1",
+    "awesome-typescript-loader": "^5.2.0",
     "css-loader": "^0.28.9",
-    "less": "^2.7.3",
+    "less": "^3.8.1",
     "less-loader": "^4.0.5",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.1",
     "svg-react-loader": "^0.4.5",
-    "typescript": "^3.0.1",
-    "webpack-dev-server": "^2.11.1"
+    "typescript": "^3.0.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
   }
 }
