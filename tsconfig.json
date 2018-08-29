@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "paths": {
+      "src/*": ["src/*"],
+      "common/*": ["src/common/*"],
+      "images/*": ["src/images/*"]
+    },
+    "baseUrl": "./"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

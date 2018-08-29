@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base . --hot --inline --colors --port 3000 --host 0.0.0.0",
+    "build": "webpack --config webpack.config.js --watch"
+  },
+  "author": "aleiux",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.36",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "@types/react-router": "^4.0.21",
+    "color": "^3.0.0",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.5",
+    "radium": "^0.21.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.3.1",
+    "redux": "^3.7.2",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.0",
+    "@types/radium": "^0.18.23",
+    "awesome-typescript-loader": "^3.4.1",
+    "css-loader": "^0.28.9",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.20.1",
+    "svg-react-loader": "^0.4.5",
+    "typescript": "^3.0.1",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

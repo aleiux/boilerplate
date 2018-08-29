@@ -1,0 +1,94 @@
+// defaults
+body {
+
+}
+
+@nav-height: 48px;
+
+.no-link-style {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-content {
+  position: relative;
+  height: calc(~"100%" - @nav-height);
+  overflow: auto;
+  display: flex;
+}
+
+.page-content-scrollable {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#app-root {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  .font-normal;
+  line-height: 0.85;
+}
+
+@default-font: 'Source Sans Pro', sans-serif;
+
+.horizontal-page-spacer {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.quick-transition {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 0.15s;
+  transition: .15s;
+}
+
+.medium-transition {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 0.25s;
+  transition: .25s;
+}
+
+.long-transition {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 0.4s;
+  transition: .5s;
+}
+
+.font-normal {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.font-title {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.font-big {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.font-title-bold {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+// colors
+@shadow-color: hsla(0, 0, 0.2, 0.4);
